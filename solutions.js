@@ -1,11 +1,16 @@
 // Sum of Two Numbers
 function sum(a, b) {
-  // Add your code here
+  return a+b;
 }
 
 // Factorial of a Number
 function factorial(n) {
-  // Add your code here
+  for (let i = 1; i < n+1; i++) {
+    n= i*n;
+    mifuncion(n);
+    
+  }
+
 }
 
 // Find the Largest Number
