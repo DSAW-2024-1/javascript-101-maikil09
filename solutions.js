@@ -1,26 +1,12 @@
 // Sum of Two Numbers
 function sum(a, b) {
-  if (typeof a !== 'number' || typeof b !== 'number') {
-    return "Los datos de entrada no son adecuados";
-  } else {
-    return a + b;
-  }
+ 
 }
 
 
 // Factorial of a Number
 function factorial(n) {
-  let r = 1;
-  if(n==0){
-    return 1;
-  }else if(n>0){
-    for (let i = n; i > 0; i--) {
-      r*=i; 
-    }
-    return n;
-  }else{
-    return "Los datos de entrada no son adecuados";
-  }
+ 
 
 }
 
