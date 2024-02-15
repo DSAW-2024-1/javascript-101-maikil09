@@ -10,7 +10,17 @@ function sum(a, b) {
 
 // Factorial of a Number
 function factorial(n) {
- 
+  if(n==0 || n==1){
+    return 1;
+  }else if(typeof n!=="number"){
+    console.log("Los datos de entrada no son adecuados");
+  }else{
+    let d=0;
+    for(let i=n;i>0;i--){
+      d*=i;
+      return i;
+    }
+  }
 
 }
 
