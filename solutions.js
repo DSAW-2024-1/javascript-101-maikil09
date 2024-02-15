@@ -1,6 +1,11 @@
 // Sum of Two Numbers
 function sum(a, b) {
- 
+  if(typeof a !=="number" || typeof b !=="number"){
+    var n="Los datos de entrada no son adecuados";
+    return n;
+  }else{
+    return a+b;
+  }
 }
 
 
