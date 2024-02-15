@@ -16,10 +16,11 @@ function factorial(n) {
     console.log("Los datos de entrada no son adecuados");
   }else{
     let d=0;
+    
     for(let i=n;i>0;i--){
       d*=i;
-      return i;
     }
+    return d;
   }
 
 }
