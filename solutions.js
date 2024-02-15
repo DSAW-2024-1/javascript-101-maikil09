@@ -1,5 +1,5 @@
 // Sum of Two Numbers
-function sumar(a, b) {
+function sum(a, b) {
   if (typeof a !== 'number' || typeof b !== 'number') {
     return "Los datos de entrada no son adecuados";
   } else {
