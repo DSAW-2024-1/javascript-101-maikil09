@@ -15,8 +15,7 @@ function factorial(n) {
   }else if(typeof n!=="number"){
     console.log("Los datos de entrada no son adecuados");
   }else{
-    let d=0;
-    
+    let d=1;
     for(let i=n;i>0;i--){
       d*=i;
     }
